@@ -1,0 +1,21 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.droppable{
+    min-height: 600px;
+}
+.droppable.v1{
+    margin: 50px auto;
+    background-color: rgb(190, 190, 190);
+    border-radius: 5px;
+    padding: 30px;
+}
+.droppable.v1 .puzzle-part{
+    width: 20%;
+}
+.puzzle-part{
+    display: inline-block;
+    width: 100px;
+}

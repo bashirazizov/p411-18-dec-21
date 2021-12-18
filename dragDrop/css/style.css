@@ -1,0 +1,39 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.droppable{
+    height: 600px;
+}
+.droppable.v1{
+    margin: 50px auto;
+    background-color: rgb(190, 190, 190);
+    border-radius: 5px;
+    padding: 30px;
+}
+.droppable.v2{
+    margin: 50px auto;
+    background-color: rgb(80, 80, 80);
+    border-radius: 5px;
+    padding: 30px;
+}
+
+.draggable{
+    width: 200px;
+    height: 200px;
+    background-color: teal;
+    border-radius: 5px;
+    transition: all .3s ease;
+    display: inline-block;
+    box-shadow: 0px 0px 40px 0px rgb(102, 102, 102);
+}
+.draggable.red{
+    background-color: red;
+}
+.draggable.green{
+    background-color: green;
+}
+.draggable.blue{
+    background-color: blue;
+}
